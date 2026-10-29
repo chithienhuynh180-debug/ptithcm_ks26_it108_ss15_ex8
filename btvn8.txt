@@ -1,0 +1,12 @@
+Phần 1
+1. nguồn rò rỉ là dòng 1 (08:15 T2): Editor + Anyone with the link, vi phạm Cờ Đỏ. ai có link cũng mở, sửa, tải, chia sẻ tiếp nên link bị đăng lên mạng là lộ hết dữ liệu.
+2. 3 giả thuyết: tài khoản email B bị hack, B tải file gửi cho người khác, file bị đổi sang Anyone with the link.
+
+Phần 2
+3. Tên file | Quyền đúng | Phạm vi đúng
+beta_users.xlsx | Editor cho QA, còn lại Viewer | Restricted
+api_keys.txt | Viewer | Restricted
+slide_pitch_v8.pptx | Commenter | Restricted
+file có dữ liệu khách hàng và key thì nhạy cảm nên phải Restricted. slide thì Commenter là đủ.
+
+4. đổi sang Restricted (Stop sharing) là link cũ hết hiệu lực ngay. dùng Set Expiration Date khi chia sẻ tạm thời cho người ngoài, để quyền tự hết hạn.
